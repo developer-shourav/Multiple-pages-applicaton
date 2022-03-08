@@ -13,19 +13,19 @@ function App() {
     <div className="App">
       <BrowserRouter> 
       <Switch>
-        <Route path="/"> 
+        <Route exact path="/"> 
           <Home> </Home>
         </Route>
 
-        <Route path="home"> 
+        <Route path="/home"> 
         <Home> </Home>
         </Route>
 
-        <Route path="friends">
+        <Route path="/friends">
            <Friends> </Friends>
          </Route>
 
-         <Route path="about">
+         <Route path="/about">
            <About> </About>
          </Route>
 
